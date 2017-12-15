@@ -1,0 +1,18 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./delimiter.css">
+</head>
+
+<body data-ng-app="delimiterApp" ng-controller="MyCtrl">
+
+    <div delimiter-box delimiter="{{Deliminater}}" box-before="{{Box_Before_Deliminater}}"
+     box-after="{{Box_After_Deliminater}}" is-required="{{IsRequired}}"
+        is-disabled="{{IsDisabled}}" submit-answer="submitAnswer()" answer="Answer"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.17/angular.min.js"></script>
+    <script src="./delimiter.js"></script>
+</body>
+
+</html>
